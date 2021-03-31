@@ -8,6 +8,7 @@ export default class extends Controller {
   }
 
   playDrums() {
+    // Hello
     console.log("lets rock!")
     console.log(this.soundTarget.play())
   }
