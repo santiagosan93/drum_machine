@@ -1,0 +1,9 @@
+<h1>Pages#home</h1>
+<p>Find me in app/views/pages/home.html.erb</p>
+
+<div class="drums-container" data-controller="drums">
+  <button data-action="drums#playDrums">here is the kick</button>
+  <%= audio_tag "kick", data: { "drums-target": "sound" } %>
+
+</div>
+
